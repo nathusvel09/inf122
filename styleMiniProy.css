@@ -1,0 +1,22 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    font-size: 25px;
+    font-family: 'Segoe UI';
+}
+.etiqueta{
+    background-color: blue;
+}
+button{
+    background-color: green;
+    border-radius: 5px;
+    border-color: green;
+    color: white;
+    
+}
+input{
+    border-radius: 5px;
+    color: gray;
+}
