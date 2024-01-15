@@ -1,0 +1,29 @@
+:root{
+    --orange: #ff872c;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #DCDCE5;
+    --sm: 16px;
+    --md: 24px;
+}
+button {
+    width: 150px;
+    height: 140px;
+    font-family: Roboto, sans-serif;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: var(--black);
+    background-color: var(--orange);
+    font-size: var(--md);
+}
+
+button:hover {
+    background-color: var(--gray);
+    color: var(--orange);
+}
+
+.boton-reinciar{
+    width: 305px;
+    height: 100px;
+}

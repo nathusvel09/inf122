@@ -1,0 +1,20 @@
+:root{
+    --orange: #ff872c;
+    --black: #000000;
+    --white: #ffffff;
+    --gray: #DCDCE5;
+    --sm: 10px;
+    --md: 24px;
+}
+.contador {
+    min-width: 300px;
+    height: auto;
+    font-size: 160px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    background-color: var(--gray);
+    color: var(--orange);
+    align-items: center;
+    margin-bottom: var(--sm);
+}
