@@ -1,20 +1,17 @@
 :root{
-    --orange: #ff872c;
-    --black: #000000;
-    --white: #ffffff;
+    --lg: 160px;
     --gray: #DCDCE5;
-    --sm: 10px;
-    --md: 24px;
+    --orange:  #FF872C;
 }
 .contador {
     min-width: 300px;
     height: auto;
-    font-size: 160px;
+    font-size: var(--lg);
     padding: 25px;
     display: flex;
     justify-content: center;
     background-color: var(--gray);
     color: var(--orange);
     align-items: center;
-    margin-bottom: var(--sm);
+    margin-bottom: 10px;
 }
