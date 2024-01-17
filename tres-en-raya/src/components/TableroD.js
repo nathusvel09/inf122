@@ -11,7 +11,6 @@ function TableroD({ cuadros, onClick }) {
             />
         );
     }
-
     return (
         <div>
             <div className="tablero">

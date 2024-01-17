@@ -51,14 +51,15 @@ function Juego() {
 
     return (
         <div className="juego">
+            
             <div className="tablero-juego">
+                <h2>{estado}</h2>
                 <TableroD
                     cuadros={actual.cuadros}
                     onClick={i => alHacerClic(i)}
                 />
             </div>
             <div className="informacion-juego">
-                <div>{estado}</div>
                 <ol>{movimientos}</ol>
             </div>
         </div>

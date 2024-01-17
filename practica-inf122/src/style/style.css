@@ -1,0 +1,29 @@
+  :root{
+    --green: green;
+    --red: red;
+    --yellow: yellow;
+
+  }
+  .container {
+    display: grid;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(0, -50%);
+  }
+  button {
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin: 10px 2px;
+  }
+  .boton-iniciar {
+    background: var(--green)
+  }
+  .boton-parar {
+    background: var(--red)
+  }
+  .boton-reiniciar {
+    background: var(--yellow)
+  }
+  
