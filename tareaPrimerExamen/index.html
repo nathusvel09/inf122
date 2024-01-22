@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
+    <script src="https://rawgit.com/eKoopmans/html2pdf/master/dist/html2pdf.bundle.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main" id="main-content">
+        <div class="card-container">
+            <div class="card-icon">
+                <figure>
+                    <img src="assets/images/nath.jpg" alt="" class="logo">
+                </figure>
+            </div>
+            <div class="icon-text">
+                <h2 class="icon-title">Nathalie Maya Usnayo Velasco</h2>
+                <p class="icon-text">Super Junior Software Enginner</p>
+                <a href="https://github.com/nathusvel09">
+                    <img src="assets/icons/github.svg">
+                </a>
+                <a href="https://x.com/nathusvel?t=wJREJLQLyHFBI5XzsaZBNg&s=09">
+                    <img src="assets/icons/twitter.svg">
+                </a>
+                <a href="">
+                    <img src="assets/icons/linkedin.svg">
+                </a>
+                <a href="https://youtube.com/@nathaliemayausnayovelasco2992?si=xdEACpaP3-g22Ku-">
+                    <img src="assets/icons/youtube.svg">
+                </a>
+            </div>
+        </div>
+        <div class="card-container-exp">
+            <div class="icon-text-exp">
+                <h2 class="icon-title">3er</h2>
+                <p class="icon-text">Semestre en Informática</p>
+            </div>
+            <div class="icon-text-exp">
+                <h2 class="icon-title">11</h2>
+                <p class="icon-text">Tareas Completadas</p>
+            </div>
+            <div class="icon-text-exp">
+                <h2 class="icon-title">1</h2>
+                <p class="icon-text">Práctica realizada</p>
+            </div>
+        </div>
+        <div class="card-container-btn">
+            <div class="icon-text-btn">
+                <button onclick="downloadPDF()" class="btn-cv" >Download CV</button>
+            </div>
+            <div class="icon-text-btn">
+                <a href="mailto:tudireccion@gmail.com" class="btn-cm">Contact me</a>
+            </div>
+        </div>
+        <div class="card-container-por">
+            <div class="icon-text-por">
+                <input type="submit" value="Portafolio" class="btn-por">
+            </div>
+            <div class="icon-text-por">
+                <input type="submit" value="Skills" class="btn-sk">
+            </div>
+        </div>
+        <div class="card-container-img">
+            <div class="card-icons">
+                <figure>
+                    <img src="assets/images/descarga (1).jpeg" alt="">
+                </figure>
+            </div>
+            <div class="card-icons">
+                <figure>
+                    <img src="assets/images/descarga.jpeg" alt="">
+                </figure>
+            </div>
+        </div>
+        <div class="card-container-img">
+            <div class="card-icons">
+                <figure>
+                    <img src="assets/images/educacion-internet-ilustracion-vector-tecnologia-informatica-chica-estudiante-personaje-aprendiendo-maestro-concepto-linea_169479-2317 (1).png" alt="">
+                </figure>
+            </div>
+            <div class="card-icons">
+                <figure>
+                    <img src="assets/images/images.jpeg" alt="">
+                </figure>
+            </div>
+        </div>
+    </div>
+    <script>
+        function downloadPDF() {
+            const element = document.getElementById('main-content'); 
+            html2pdf(element, { filename: 'mi_cv.pdf' });
+        }
+    </script>    
+</body>
+</html>
