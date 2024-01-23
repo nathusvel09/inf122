@@ -41,8 +41,12 @@ function Juego2() {
 
     function saltarA(paso) {
         setNumeroPaso(paso);
-        setEsTurnoDeX(paso % 2 === 0);
+        const esTurnoDeXEnPaso = paso % 2 === 0;
+        setEsTurnoDeX(esTurnoDeXEnPaso);
+
+
     }
+
 
     function reiniciarJuego() {
         setHistorial([estadoInicial]);
