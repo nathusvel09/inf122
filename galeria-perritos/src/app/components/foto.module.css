@@ -1,0 +1,9 @@
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box img{
+    border-radius: 50%;
+    object-fit: cover;
+}

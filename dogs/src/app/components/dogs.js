@@ -10,7 +10,7 @@ function Dog() {
     const url = "https://dog.ceo/api/breed/sheepdog/english/images/random"
     useEffect(() => {
         fetch(url).then(res => res.json()).then(data => {setDog(data.message)})
-    }, [])
+    }, []);
 
     return (
         <div className={style.box}>
